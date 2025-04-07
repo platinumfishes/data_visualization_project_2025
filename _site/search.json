@@ -98,6 +98,13 @@
     "text": "Tables Used:\n\nB02001: Race\nB03003: Hispanic or Latino Origin\n\nDefinitions follow federal standards on race/ethnicity reporting\n\nAll data was retrieved via the U.S. Census Bureau API or from FCC bulk downloads and merged using county FIPS codes for consistency."
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Broadband Internet Access in the US",
+    "section": "",
+    "text": "https://allenwu.georgetown.domains/broadband_project/insights.html"
+  },
+  {
     "objectID": "code/data_query.html",
     "href": "code/data_query.html",
     "title": "Query Government Census API for US Census Broadband Data (ACS 5 year estimate, 2022)",
