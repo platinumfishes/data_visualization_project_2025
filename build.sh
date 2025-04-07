@@ -24,6 +24,30 @@ echo "Setting correct permissions for files and directories..."
 for i in $(find _site -type f); do chmod 644 $i; done
 for i in $(find _site -type d); do chmod 755 $i; done
 
+# Function to push to GitHub Pages under /docs
+push_to_github_pages() {
+    # Ensure we are in the correct directory
+    cd _site
+
+    # Create a new branch specifically for GitHub Pages if needed
+    echo "Switching to gh-pages branch..."
+    git checkout -b gh-pages || git checkout gh-pages
+
+    # Add the _site contents to the /docs directory
+    echo "Syncing _site to the /docs directory..."
+    cp -r * ../docs/
+
+    # Commit and push to GitHub Pages
+    echo "Committing and pushing changes to GitHub Pages..."
+    git add .
+    git commit -m "Update GitHub Pages site"
+    git push origin gh-pages
+
+    # Go back to the main branch
+    git checkout main
+    cd "$dir1"
+}
+
 # GitHub Sync Logic
 printf 'Would you like to push to GITHUB? (y/n)? '
 read answer
@@ -56,4 +80,13 @@ if [ "$answer" != "${answer#[Yy]}" ] ;then
 
 else
     echo "Not pushing to GU domains!"
+fi
+
+# Push the website to GitHub Pages under /docs
+printf 'Would you like to push the website to GitHub Pages (under /docs)? (y/n)? '
+read answer
+if [ "$answer" != "${answer#[Yy]}" ] ;then
+    push_to_github_pages
+else
+    echo "Not pushing to GitHub Pages!"
 fi
