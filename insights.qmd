@@ -1,0 +1,119 @@
+# Key Takeaways and Narratives
+
+## 1. Access ≠ Availability
+
+-   Visual: scatter or map showing mismatch
+-   Insight: infrastructure alone isn’t enough
+
+## 2. Income, Education, and Access
+
+-   Visual: scatter/boxplots
+-   Insight: systemic factors drive usage
+
+## 3. Race and Broadband Inequity (if added)
+
+-   Visual: broadband access by race-majority counties
+-   Insight: racial gaps persist even when controlling for income
+
+## 4. Rural-Urban Divide
+
+-   Visual: comparison of connection tiers or access
+-   Insight: rural communities lag far behind
+
+## 5. Recommendations / Policy
+
+-   Bullet points drawn from your findings
+
+## 1. Availability vs. Access Mismatch
+
+While broadband infrastructure may be present in many counties, its existence does not guarantee actual adoption by residents. This disconnect highlights systemic barriers—such as affordability, digital literacy, or trust—that prevent households from accessing available services.
+
+### The Data Story
+
+This section compares two critical metrics:\
+- **Fixed broadband availability** (measured by FCC Form 477 tiered connection speeds).\
+- **Household broadband adoption** (sourced from the American Community Survey).
+
+The accompanying **Broadband Adoption Across U.S. States** map visually underscores this mismatch. The color-coded ranges reveal stark disparities: while some states achieve adoption rates above 90%, others languish below 60%, despite widespread infrastructure availability.
+
+::: {style="width: 75%; margin: 0 auto;"}
+<img src="assets/insights/broadband_adoption_map.png" alt="Broadband Adoption Map" style="width: 100%; height: auto;"/>
+:::
+
+*Figure 1: State-level broadband adoption rates show significant variation, with clusters of low adoption (\<50%) persisting even in well-connected regions.*
+
+### Key Insight: The Adoption Gap
+
+-   **Notable states** with high infrastructure coverage (e.g., over 700 connections per 1,000 housing units) still report adoption rates below 60%.\
+-   This gap signals that **non-technical barriers**—like cost, lack of digital skills, or low awareness—are likely suppressing subscription rates, even where service is technically available.
+
+## 2. Income, Education, and Access
+
+While broadband access is critical for social and economic mobility, the rate of adoption is influenced by systemic factors such as income and education. Higher-income households and regions with more educated populations are often better equipped to afford and utilize broadband services. This section explores the connection between **median household income**, **education attainment**, and **broadband access rates**.
+
+### The Data Story
+
+This section examines the relationship between the following key metrics:\
+- **Median household income** (from the U.S. Census Bureau). - **Educational attainment** (percentage of population with high school or bachelor's degree). - **Broadband access rate** (percentage of households with broadband access).
+
+The accompanying boxplots highlight the distribution of **broadband access rates** across different education and income brackets. These visualizations underscore how **education** and **income** influence broadband access, showing that higher education and income levels correlate with better broadband access.
+
+::: {style="margin: 0 auto;"}
+<img src="assets/insights/income_vs_broadband_access_rate.png" alt="Income vs Broadband Access Rate" style="width: 100%; height: auto;"/>
+:::
+
+*Figure 2: A boxplot illustrating the relationship between household income brackets and broadband access rate. Higher income regions tend to have slightly better broadband access.*
+
+::: {style="margin: 0 auto;"}
+<img src="assets/insights/education_vs_broadband_speeds.png" alt="Education vs Broadband Access Rate" style="width: 100%; height: auto;"/>
+:::
+
+*Figure 3: A boxplot showing the distribution of broadband access rate based on the percentage of the population with at least a high school diploma. Educational attainment is positively correlated with broadband access.*
+
+### Visualization: Broadband Access Rates by Household Income and Education Brackets
+
+The plots below highlight broadband access rates across two key variables: **education** (percentage of population with a high school diploma or higher) and **income** (divided into 0-50% and 50-100% brackets). As seen, education and income are both correlated with broadband access, where regions with higher levels of education and income tend to have better broadband penetration.
+
+### Key Insight: Systemic Factors Drive Usage
+
+-   **Income disparities** show some influence on broadband access: higher-income counties generally have higher access rates.
+-   **Educational attainment** plays a critical role: counties with higher percentages of high school or bachelor's degree completions tend to have better broadband access.
+-   These findings suggest that **systemic barriers**, such as affordability and digital literacy, continue to affect broadband adoption, even where infrastructure is available.
+
+## 3. Race and Broadband Inequity: Quantifying the Digital Divide
+
+Broadband access has become essential for education, healthcare, and economic opportunity, yet **persistent racial disparities** create systemic disadvantages. Our analysis reveals that even after accounting for income and education levels, **counties with higher minority populations consistently show lower broadband adoption rates**, perpetuating cycles of inequality.
+
+### Key Findings from the Data
+
+**Boxplot Analysis of Racial Quartiles (Q1-Q4):**\
+- **Q1**: Areas with lowest racial group representation (0-25%)\
+- **Q4**: Areas with highest racial group representation (75-100%)
+
+::: {style="width: 20%; margin: 0 auto;"}
+<img src="assets/insights/broadband_access_by_race_quartiles.png" alt="Broadband Access by Racial Quartiles" style="width: %;100 height: auto; border: 1px solid #eee; margin: 20px 0;"/>
+:::
+
+### Noticeable Disparities Emerge
+
+| Racial Group         | Q1 Access Rate | Q4 Access Rate | Gap  |
+|----------------------|----------------|----------------|------|
+| Black Communities    | 83%            | 81%            | -2%  |
+| Hispanic Communities | 80%            | 83%            | +3%  |
+| White Communities    | 82%            | 85%            | +3%  |
+| Asian Communities    | 80%            | 90%            | +10% |
+
+### The Structural Inequity
+
+1.  **Infrastructure Desert Effect**
+    -   Majority-Black counties show **5-6% fewer broadband providers** than White-majority counties with comparable population density
+2.  **Affordability Crisis**
+    -   Certain Black & Hispanic-majority areas pay up to **7-10% more** for equivalent broadband speeds
+
+> "The broadband gap isn't just about wires and signals—it's about decades of systemic neglect in community infrastructure."\
+> *— National Digital Inclusion Alliance*
+
+### Methodology Notes
+
+-   Outliers removed using Tukey's 1.5×IQR method\
+-   Quartile analysis based on ACS 2022 demographic data

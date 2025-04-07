@@ -6,12 +6,10 @@ website:
   navbar:
     left:
       - text: Home
-        href: index.ipynb
+        href: index.qmd
       - text: Background
-        href: background.ipynb
+        href: background.qmd
       - text: Data
-        href: data.ipynb
-      - text: Visualizations
-        href: visualizations.ipynb
+        href: data.qmd
       - text: Insights
-        href: insights.ipynb
+        href: insights.qmd
