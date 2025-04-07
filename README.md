@@ -1,1 +1,3 @@
-# data_visualization_project_2025
+# Steam Visuals
+
+This is a data visualization project based on Steam data.
