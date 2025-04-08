@@ -1,17 +1,17 @@
 [
   {
+    "objectID": "code/eda.html",
+    "href": "code/eda.html",
+    "title": "Unrequited Aid: The Intimate Struggle of Humanitarian Work",
+    "section": "",
+    "text": "import geopandas as gpd\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\n# 1. Prepare data\nincident_counts = (\n    incidents[incidents['Country'].notna()]\n    .groupby('Country').size()\n    .reset_index(name='Incidents')\n    .replace({\n        'DR Congo': 'Democratic Republic of the Congo',\n        'Cote D\\'Ivoire': 'Ivory Coast'\n    })\n)\n\n# 2. Get world map\nworld = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))\n\n# 3. Merge and plot\nworld = world.merge(\n    incident_counts,\n    left_on='name',\n    right_on='Country',\n    how='left'\n)\n\nfig, ax = plt.subplots(1, 1, figsize=(15, 10))\nworld.plot(\n    column='Incidents',\n    cmap='magma',\n    missing_kwds={'color': 'lightgray'},\n    linewidth=0.5,\n    ax=ax,\n    legend=True,\n    scheme='natural_breaks',\n    legend_kwds={\n        'label': \"Number of Incidents\",\n        'orientation': \"horizontal\",\n        'shrink': 0.5\n    }\n)\n\nax.set_title(\n    \"Humanitarian Worker Attacks (1997-2006)\\n\",\n    fontdict={'fontsize': 16, 'fontweight': 'bold'}\n)\nax.set_axis_off()\nplt.tight_layout()\nplt.savefig('assets/landing_map.png', dpi=300, bbox_inches='tight')\n\n\n---------------------------------------------------------------------------\nNameError                                 Traceback (most recent call last)\nCell In[1], line 7\n      3 import matplotlib.pyplot as plt\n      5 # 1. Prepare data\n      6 incident_counts = (\n----&gt; 7     incidents[incidents['Country'].notna()]\n      8     .groupby('Country').size()\n      9     .reset_index(name='Incidents')\n     10     .replace({\n     11         'DR Congo': 'Democratic Republic of the Congo',\n     12         'Cote D\\'Ivoire': 'Ivory Coast'\n     13     })\n     14 )\n     16 # 2. Get world map\n     17 world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))\n\nNameError: name 'incidents' is not defined"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "\nUnrequited Aid: The Intimate Struggle of Humanitarian Work\n",
     "section": "",
     "text": "2025 Georgetown Data Science & Analytics Project"
-  },
-  {
-    "objectID": "index.html#abstract",
-    "href": "index.html#abstract",
-    "title": "Unrequited Aid: The Intimate Struggle of Humanitarian Work",
-    "section": "",
-    "text": "This project transforms 4,337 field-level reports of violence against humanitarian workers into a structured, interactive intelligence product for crisis awareness and global security insight. Spanning nearly three decades (1997–2025) and over 90 countries, the dataset reveals geographic escalation, changing actor behavior, and systemic vulnerabilities in humanitarian operations.\nWe explore how local aid workers disproportionately face higher rates of violence, how certain regions have become chronically unsafe for intervention, and how the means and motives of attacks have evolved — from targeted kidnappings to mass-casualty bombings. The result is a data-driven narrative that not only informs historical understanding but also equips future risk forecasting, mission planning, and policy intervention.\nOur dashboard serves as both an analytical artifact and a prototype for what real-time field intelligence could look like — bridging the gap between static reporting and dynamic decision-making."
   },
   {
     "objectID": "index.html#global-risk-landscape",
