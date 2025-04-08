@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\nUnrequited Aid: The Intimate Struggle of Humanitarian Work\n",
+    "section": "",
+    "text": "2025 Georgetown Data Science & Analytics Project"
+  },
+  {
+    "objectID": "index.html#abstract",
+    "href": "index.html#abstract",
+    "title": "Unrequited Aid: The Intimate Struggle of Humanitarian Work",
+    "section": "",
+    "text": "This project transforms 4,337 field-level reports of violence against humanitarian workers into a structured, interactive intelligence product for crisis awareness and global security insight. Spanning nearly three decades (1997–2025) and over 90 countries, the dataset reveals geographic escalation, changing actor behavior, and systemic vulnerabilities in humanitarian operations.\nWe explore how local aid workers disproportionately face higher rates of violence, how certain regions have become chronically unsafe for intervention, and how the means and motives of attacks have evolved — from targeted kidnappings to mass-casualty bombings. The result is a data-driven narrative that not only informs historical understanding but also equips future risk forecasting, mission planning, and policy intervention.\nOur dashboard serves as both an analytical artifact and a prototype for what real-time field intelligence could look like — bridging the gap between static reporting and dynamic decision-making."
+  },
+  {
+    "objectID": "index.html#global-risk-landscape",
+    "href": "index.html#global-risk-landscape",
+    "title": "\nUnrequited Aid: The Intimate Struggle of Humanitarian Work\n",
+    "section": "Global Risk Landscape",
+    "text": "Global Risk Landscape"
+  },
+  {
+    "objectID": "index.html#implications-of-our-research",
+    "href": "index.html#implications-of-our-research",
+    "title": "\nUnrequited Aid: The Intimate Struggle of Humanitarian Work\n",
+    "section": "Implications of Our Research",
+    "text": "Implications of Our Research\nHumanitarian access is not just constrained by conflict—it’s under attack.\nBetween 1997 and 2025, over 4,300 incidents of violence against aid workers have been recorded across 90+ countries. The data reveals a grim pattern:\n\nNational staff face over 80% of fatalities and kidnappings, often without adequate protection.\nAmbushes and roadside attacks are the most frequent and deadly contexts.\nNon-state armed groups — including the Taliban, Al-Itihaad, and LRA — are key perpetrators, driven by political motives or ransom demands.\nMost incidents occur in Somalia, Sudan, Afghanistan, Iraq, and DRC, with spikes aligned to major geopolitical events.\nA significant number of attacks remain unverified and unpunished, reflecting legal and accountability gaps.\n\n\n\nThese are not isolated tragedies…\n\n\nthey represent a systemic failure to protect those who serve.\n\n\nThis project provides a foundation for: - Risk-aware operational planning - Targeted protections for national staff - Policy advocacy grounded in field-level data\nWhat emerges is not just a dataset — but a map of global vulnerability, and a call to safeguard humanitarian space."
+  }
+]

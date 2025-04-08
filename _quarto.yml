@@ -1,15 +1,31 @@
 project:
   type: website
 
+resources:
+  - styles.css
+
+include-in-header: assets/fonts/fonts.html
+format:
+  html:
+    theme: pulse
+    css: styles.css
+    toc: false
+    page-layout: full
+    smooth-scroll: true
+
 website:
-  title: "2025 DSAN Scholarship Project"
+  title: "Unrequited Aid: The Intimate Struggle of Humanitarian Work"
   navbar:
     left:
-      - text: Home
+      - text: Humanitarian Harm Debrief
         href: index.qmd
-      - text: Background
-        href: background.qmd
-      - text: Data
-        href: data.qmd
-      - text: Insights
-        href: insights.qmd
+      - text: The Rising Threat
+        href: introduction.qmd
+      - text: Geography of Conflict
+        href: geography.qmd
+      - text: Methods of Violence
+        href: attacks.qmd
+      - text: Targets of Terror
+        href: targets.qmd
+      - text: Implications & Actions
+        href: conclusion.qmd

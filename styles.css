@@ -1,0 +1,52 @@
+/* Set max content width */
+main.content {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+/* Body font: Inconsolata */
+body {
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #111;
+}
+
+/* Header font: Orbitron (Tomorrow-like) */
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  color: #111;
+}
+
+/* Center and stylize title block */
+.custom-title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.custom-title h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-family: 'Oswald', sans-serif; /* or any header font */
+}
+
+.custom-title .subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 1rem;
+  font-style: italic;
+  letter-spacing: 0.5px;
+}
+
+/* Decorative underline */
+.custom-title .underline {
+  width: 500px;
+  height: 4px;
+  margin: 0 auto;
+  background-color: #fc00e3; /* Bootstrap danger red */
+  border-radius: 2px;
+}

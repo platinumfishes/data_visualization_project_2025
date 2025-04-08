@@ -1,0 +1,96 @@
+```{r}
+# Load packages
+library(tidyverse)
+library(sf)       # for mapping
+library(rnaturalearth) # for world map data
+
+# 1. Prepare data - aggregate incidents by country
+incident_counts <- incidents %>%
+  filter(!is.na(Country), !Country %in% c("", "Chechnya")) %>%
+  count(Country, name = "Incidents") %>%
+  mutate(Country = case_when(
+    Country == "DR Congo" ~ "Democratic Republic of the Congo",
+    Country == "Cote D'Ivoire" ~ "Ivory Coast",
+    TRUE ~ Country
+  ))
+
+# 2. Get world map data
+world <- ne_countries(scale = "medium", returnclass = "sf")
+
+# 3. Merge and plot
+world %>%
+  left_join(incident_counts, by = c("name" = "Country")) %>%
+  ggplot() +
+  geom_sf(aes(fill = Incidents), color = NA) +
+  scale_fill_viridis_c(
+    option = "magma",
+    na.value = "gray90",
+    trans = "sqrt", # Better for skewed distributions
+    breaks = c(1, 10, 50, 100, 200)
+  ) +
+  labs(
+    title = "Humanitarian Worker Attacks (1997-2006)",
+    subtitle = "Heatmap shows concentration of incidents by country",
+    fill = "Number of\nIncidents",
+    caption = "Data: Provided security incidents dataset"
+  ) +
+  theme_void() +
+  theme(
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    legend.position = "bottom"
+  )
+
+ggsave("assets/eda/landing_map.png", width = 10, height = 6, dpi = 300)
+```
+
+```{python}
+import geopandas as gpd
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# 1. Prepare data
+incident_counts = (
+    incidents[incidents['Country'].notna()]
+    .groupby('Country').size()
+    .reset_index(name='Incidents')
+    .replace({
+        'DR Congo': 'Democratic Republic of the Congo',
+        'Cote D\'Ivoire': 'Ivory Coast'
+    })
+)
+
+# 2. Get world map
+world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
+
+# 3. Merge and plot
+world = world.merge(
+    incident_counts,
+    left_on='name',
+    right_on='Country',
+    how='left'
+)
+
+fig, ax = plt.subplots(1, 1, figsize=(15, 10))
+world.plot(
+    column='Incidents',
+    cmap='magma',
+    missing_kwds={'color': 'lightgray'},
+    linewidth=0.5,
+    ax=ax,
+    legend=True,
+    scheme='natural_breaks',
+    legend_kwds={
+        'label': "Number of Incidents",
+        'orientation': "horizontal",
+        'shrink': 0.5
+    }
+)
+
+ax.set_title(
+    "Humanitarian Worker Attacks (1997-2006)\n",
+    fontdict={'fontsize': 16, 'fontweight': 'bold'}
+)
+ax.set_axis_off()
+plt.tight_layout()
+plt.savefig('assets/eda/landing_map.png', dpi=300, bbox_inches='tight')
+```
