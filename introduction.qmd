@@ -1,0 +1,73 @@
+---
+title: "The Rising Threat to Humanitarians"
+subtitle: "Temporal Patterns in Aid Worker Attacks (1997-2024)"
+format: 
+  html:
+    toc: false
+---
+
+# The Rising Threat to Humanitarians
+
+This timeline shows **yearly recorded attacks between 1997 and 2024**, revealing a sharp escalation over time. Each peak corresponds to significant geopolitical turning points:
+
+-   **1997**: The aftermath of the Rwandan genocide and civil conflict in Somalia marked a turning point. That year saw one of the earliest targeted killings — including the **beheading of an ICRC staff member** by the Al-Itihaad militant group in Somalia. It signaled a shift from incidental harm to **deliberate targeting**.
+
+-   **2008**: The **Darfur conflict in Sudan** intensified, alongside growing insecurity in eastern Congo and post-invasion Iraq. Aid convoys were ambushed, national staff were kidnapped, and international teams began **withdrawing from high-risk zones**, especially in rural Sudan and Somalia.
+
+-   **2013**: The rise of **ISIS in Syria and Iraq**, combined with ongoing crises in Mali, South Sudan, and CAR, caused the deadliest year on record to that point. Incidents became more complex and politically motivated, with targeted attacks on **UN compounds, medical staff, and convoy operations**.
+
+-   **2024**: Although not yet fully analyzed, preliminary data shows the **highest number of reported attacks to date**. This may reflect **expanding conflict zones** (e.g., Sudan’s civil war, Gaza, Myanmar), growing hostility toward foreign organizations, or improved reporting mechanisms.
+
+These peaks highlight how violence against aid workers mirrors — and sometimes **precedes** — geopolitical volatility. The humanitarian space is shrinking not due to lack of will, but due to **mounting and intentional threats**.
+
+Understanding these patterns is essential. Not just for crisis forecasting, but for shaping protection protocols, negotiating access, and upholding the humanitarian principles of **neutrality and impartiality** in an era of increasing polarization.
+
+<img src="assets/introduction/timeline_attacks.png" alt="Timeline of reported attacks on humanitarian workers from 1997 to 2024"/>
+
+
+## Casualty Comparison: National vs. International Staff
+
+Not all aid workers face the same level of danger.
+
+This visualization shows total fatalities by year, broken down by **national** and **international staff**. The disparity is stark: **national employees consistently suffer the vast majority of deaths**. In many years, they account for **more than 85% of all humanitarian fatalities**.
+
+This is not incidental — it reflects structural inequalities in how international missions operate:
+
+- National staff are more likely to be deployed in volatile zones and during peak risk periods.
+- They often receive less protective equipment, medical coverage, or evacuation support.
+- In conflict areas, national staff may be perceived as **legitimate political targets**, especially if linked to foreign organizations.
+
+> In short: **the closer you live to the crisis, the more dangerous it is to help.**
+
+This is a central challenge for humanitarian protection strategy — one that data like this makes impossible to ignore.
+
+## Animated Fatalities Timeline
+
+<iframe src="assets/introduction/timeline_fatalities_line.html" width="100%" height="500px" frameborder="0"></iframe>
+
+**Interpretation:**  
+This animation shows how fatalities among aid workers fluctuate sharply in response to geopolitical crises. A notable surge is visible beginning in **October / November 2023**, coinciding with the outbreak of the **Israel–Gaza war**, renewed civil violence in **Sudan**, and intensified instability in **Myanmar**. These overlapping crises led to increased field deployments under unsafe conditions and a rise in **direct targeting of humanitarian staff** — especially national workers operating in high-risk zones.
+
+Such temporal spikes emphasize the need for **real-time risk intelligence** and **flexible security protocols** that respond as fast as conflict evolves.
+
+## Animated Injuries Barchart
+
+<iframe src="assets/introduction/timeline_wounded.html" width="100%" height="500px" frameborder="0"></iframe>
+
+**Interpretation:**  
+The injuries chart reflects similar volatility, with a dramatic escalation around **Fall 2023**. The sharp rise in national staff wounded during this period may reflect increasing use of **indiscriminate tactics** (e.g., shelling, convoy ambushes) in urban conflict zones like **Khartoum** and **Gaza City**, where aid groups were still attempting to maintain access.
+
+The data here reinforces a dangerous truth: **even when fatalities are avoided, humanitarian operations increasingly result in physical harm — with national staff again disproportionately affected.**
+
+## Why Timing Matters
+
+Patterns of violence against humanitarian workers are not random — they follow the rhythms of war, collapse, and power shifts. Each surge in attacks tells us not just where the world is unstable, but **when the cost of compassion becomes highest**.
+
+What this timeline shows is that **early warning isn’t just for states** — it's vital for those who deliver medicine, food, and protection. Humanitarian organizations need not only courage, but foresight: the ability to read risk in the data before it reaches the field.
+
+By mapping the past, we are not just documenting loss — we are building the scaffolding for:
+
+<div style="text-align: center; margin-top: 2rem; margin-bottom: 2rem;">
+  <h3 style="margin-bottom: 0.5rem;">Proactive Protection. Smarter Deployment of Humanitarian Aid.</h3>
+  <h3 style="margin-top: 0.5rem;">A Deeper Respect for Those Who Risk Everything to Serve Others.</h3>
+</div>
