@@ -4,6 +4,8 @@ subtitle: "Temporal Patterns in Aid Worker Attacks (1997-2024)"
 format: 
   html:
     toc: false
+    smooth-scroll: true
+    css: styles.css
 ---
 
 # The Rising Threat to Humanitarians
