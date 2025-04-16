@@ -8,6 +8,8 @@ format:
     smooth-scroll: true
     css: styles.css
     allow-html: true
+
+bibliography: references.bib
 ---
 
 ## Global Heatmap: Where Aid Workers Are Most at Risk

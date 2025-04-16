@@ -6,6 +6,8 @@ format:
     toc: false
     smooth-scroll: true
     css: styles.css
+
+bibliography: references.bib
 ---
 
 # The Rising Threat to Humanitarians

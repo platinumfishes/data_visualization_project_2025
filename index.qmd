@@ -8,6 +8,7 @@ format:
     smooth-scroll: true
     css: styles.css
     
+bibliography: references.bib
 ---
 <div class="custom-title">
   <h1>Unrequited Aid: The Intimate Struggle of Humanitarian Work</h1>
