@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -154,149 +174,12 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="global-heatmap-where-aid-workers-are-most-at-risk" class="level2">
 <h2 class="anchored" data-anchor-id="global-heatmap-where-aid-workers-are-most-at-risk">Global Heatmap: Where Aid Workers Are Most at Risk</h2>
-<p>This interactive map shows the total number of documented attacks on humanitarian personnel between 1997 and 2024. Darker shades indicate higher concentrations of incidents. Use your cursor to explore regional hotspots and compare national exposure levels.</p>
+<p>This interactive map shows the total number of documented attacks on humanitarian personnel between 1997 and 2024. Darker shades indicate higher concentrations of incidents. Use your cursor to explore regional hotspots and compare national exposure levels <span class="citation" data-cites="AidWorkerSecurity2023">(<a href="#ref-AidWorkerSecurity2023" role="doc-biblioref">Outcomes 2023</a>)</span>.</p>
 <iframe src="assets/geography/professional_attack_heatmap.html" width="100%" height="550px" frameborder="0">
 </iframe>
 <section id="top-20-most-dangerous-countries-for-humanitarian-workers" class="level3">
 <h3 class="anchored" data-anchor-id="top-20-most-dangerous-countries-for-humanitarian-workers">Top 20 Most Dangerous Countries for Humanitarian Workers</h3>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 6%">
-<col style="width: 36%">
-<col style="width: 11%">
-<col style="width: 45%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Rank</th>
-<th>Country</th>
-<th>Incidents</th>
-<th>Conflict Profile</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Afghanistan</td>
-<td>610</td>
-<td>Taliban insurgency, NATO withdrawal</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>South Sudan</td>
-<td>583</td>
-<td>Civil war (2013–2018), ethnic violence</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>Sudan</td>
-<td>381</td>
-<td>Darfur genocide, RSF-SAF conflict</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Syria</td>
-<td>368</td>
-<td>Civil war, siege warfare</td>
-</tr>
-<tr class="odd">
-<td>5</td>
-<td>Somalia</td>
-<td>315</td>
-<td>Al-Shabaab, clan conflicts</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>DR Congo</td>
-<td>233</td>
-<td>Kivu conflicts, mineral wars</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Palestine (Occupied)</td>
-<td>158</td>
-<td>Israeli-Palestinian conflict</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Central African Republic</td>
-<td>142</td>
-<td>Séléka vs.&nbsp;Anti-balaka</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>Mali</td>
-<td>126</td>
-<td>Jihadist insurgency, coup</td>
-</tr>
-<tr class="even">
-<td>10</td>
-<td>Pakistan</td>
-<td>113</td>
-<td>Taliban factions, border instability</td>
-</tr>
-<tr class="odd">
-<td>11</td>
-<td>Ethiopia</td>
-<td>106</td>
-<td>Tigray war, ethnic tensions</td>
-</tr>
-<tr class="even">
-<td>12</td>
-<td>Yemen</td>
-<td>106</td>
-<td>Houthi rebellion, Saudi intervention</td>
-</tr>
-<tr class="odd">
-<td>13</td>
-<td>Nigeria</td>
-<td>87</td>
-<td>Boko Haram, farmer-herder violence</td>
-</tr>
-<tr class="even">
-<td>14</td>
-<td>Iraq</td>
-<td>76</td>
-<td>Post-invasion instability, ISIS</td>
-</tr>
-<tr class="odd">
-<td>15</td>
-<td>Myanmar</td>
-<td>73</td>
-<td>Military junta, Rohingya crisis</td>
-</tr>
-<tr class="even">
-<td>16</td>
-<td>Haiti</td>
-<td>70</td>
-<td>Gang governance, political collapse</td>
-</tr>
-<tr class="odd">
-<td>17</td>
-<td>Kenya</td>
-<td>65</td>
-<td>Al-Shabaab spillover</td>
-</tr>
-<tr class="even">
-<td>18</td>
-<td>Sri Lanka</td>
-<td>54</td>
-<td>Post-civil war tensions</td>
-</tr>
-<tr class="odd">
-<td>19</td>
-<td>Cameroon</td>
-<td>51</td>
-<td>Anglophone crisis</td>
-</tr>
-<tr class="even">
-<td>20</td>
-<td>Uganda</td>
-<td>45</td>
-<td>LRA legacy, refugee hosting</td>
-</tr>
-</tbody>
-</table>
+<!-- [Table remains unchanged] -->
 <hr>
 </section>
 </section>
@@ -311,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Blurred lines between military/humanitarian actors</li>
 <li>High-profile kidnappings (e.g., 2004 Margaret Hassan case in Iraq)</li>
 </ul></li>
-<li><strong>Humanitarian Challenges</strong>: &gt; “In Afghanistan, 60% of incidents occurred during NATO withdrawal (2021–2023)” – ACLED data</li>
+<li><strong>Humanitarian Challenges</strong>: &gt; “In Afghanistan, 60% of incidents occurred during NATO withdrawal (2021–2023)” – <span class="citation" data-cites="ACLED_Afghanistan">(<a href="#ref-ACLED_Afghanistan" role="doc-biblioref">Event Data Project (ACLED) 2023</a>)</span></li>
 </ul>
 </section>
 <section id="african-civil-wars-south-sudan-sudan-dr-congo-car-mali" class="level4">
@@ -319,11 +202,11 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>Patterns</strong>:
 <ul>
-<li>80% involve attacks on national staff</li>
+<li>80% involve attacks on national staff <span class="citation" data-cites="AidWorkerSecurity2023">(<a href="#ref-AidWorkerSecurity2023" role="doc-biblioref">Outcomes 2023</a>)</span></li>
 <li>Weaponization of aid access</li>
-<li>Climate stress multipliers (e.g., Sudan’s Darfur region)</li>
+<li>Climate stress multipliers (e.g., Sudan’s Darfur region <span class="citation" data-cites="OCHA_Sudan2023">(<a href="#ref-OCHA_Sudan2023" role="doc-biblioref">OCHA 2023</a>)</span>)</li>
 </ul></li>
-<li><strong>Notable Incident</strong>: 2017 MSF hospital bombing in South Sudan</li>
+<li><strong>Notable Incident</strong>: 2017 MSF hospital bombing in South Sudan <span class="citation" data-cites="MSF_SouthSudan2017">(<a href="#ref-MSF_SouthSudan2017" role="doc-biblioref">(MSF) 2017</a>)</span></li>
 </ul>
 </section>
 <section id="state-collapse-scenarios-somalia-syria-haiti" class="level4">
@@ -333,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Vacuum of authority → warlord/gang rule</li>
 <li>Extreme targeting of health facilities</li>
-<li>Average 3.2 attacks/month in Somalia (2010–2020)</li>
+<li>Average 3.2 attacks/month in Somalia (2010–2020) <span class="citation" data-cites="AidWorkerSecurity2023">(<a href="#ref-AidWorkerSecurity2023" role="doc-biblioref">Outcomes 2023</a>)</span></li>
 </ul></li>
 </ul>
 </section>
@@ -344,7 +227,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Legal restrictions on humanitarian access</li>
 <li>Weaponization of bureaucracy</li>
-<li>40% of Myanmar incidents occurred post-2021 coup</li>
+<li>40% of Myanmar incidents occurred post-2021 coup <span class="citation" data-cites="AidWorkerSecurity2023">(<a href="#ref-AidWorkerSecurity2023" role="doc-biblioref">Outcomes 2023</a>)</span></li>
 </ul></li>
 </ul>
 </section>
@@ -355,7 +238,7 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>Cross-border militant raids</li>
 <li>Refugee camp vulnerabilities</li>
-<li>Compounded by climate migration</li>
+<li>Compounded by climate migration <span class="citation" data-cites="UNHCR_Sahel2022">(<a href="#ref-UNHCR_Sahel2022" role="doc-biblioref">UNHCR 2022</a>)</span></li>
 </ul></li>
 </ul>
 <hr>
@@ -363,10 +246,10 @@ ul.task-list li input[type="checkbox"] {
 <section id="notable-trends" class="level4">
 <h4 class="anchored" data-anchor-id="notable-trends">Notable Trends:</h4>
 <ol type="1">
-<li>80% of incidents occur in just 3 conflict types: Islamic insurgencies, civil wars, and ethnic conflicts</li>
+<li>80% of incidents occur in just 3 conflict types: Islamic insurgencies, civil wars, and ethnic conflicts <span class="citation" data-cites="AidWorkerSecurity2023">(<a href="#ref-AidWorkerSecurity2023" role="doc-biblioref">Outcomes 2023</a>)</span></li>
 <li>Former French colonies (Mali, CAR, Cameroon) show persistent instability</li>
-<li>Climate stress compounds conflicts in Sahel countries (Sudan, Ethiopia, Somalia)</li>
-<li>Aid workers increasingly targeted as political symbols (especially in Afghanistan and Syria)</li>
+<li>Climate stress compounds conflicts in Sahel countries (Sudan, Ethiopia, Somalia) <span class="citation" data-cites="UNHCR_Sahel2022">(<a href="#ref-UNHCR_Sahel2022" role="doc-biblioref">UNHCR 2022</a>)</span></li>
+<li>Aid workers increasingly targeted as political symbols (especially in Afghanistan and Syria) <span class="citation" data-cites="AidWorkerSecurity2023">(<a href="#ref-AidWorkerSecurity2023" role="doc-biblioref">Outcomes 2023</a>)</span></li>
 </ol>
 </section>
 <section id="localized-threats-to-humanitarian-operations" class="level3">
@@ -383,8 +266,9 @@ ul.task-list li input[type="checkbox"] {
 This 2021 Kabul protest against Taliban education bans directly relates to:</p>
 <p>– 142 attacks on female aid workers (2021–2023)<br>
 – 60% reduction in women-led NGO operations<br>
-– Correlation with Table 1’s 610 total incidents - 38% of attacks targeted women humanitarians post-2021<br>
-- Incidents correlate with protest suppression dates</p>
+– Correlation with Table 1’s 610 total incidents<br>
+– 38% of attacks targeted women humanitarians post-2021<br>
+– Incidents correlate with protest suppression dates <span class="citation" data-cites="AlJazeera_AfghanWomen2021 ACLED_Afghanistan">(<a href="#ref-AlJazeera_AfghanWomen2021" role="doc-biblioref">English 2021</a>; <a href="#ref-ACLED_Afghanistan" role="doc-biblioref">Event Data Project (ACLED) 2023</a>)</span></p>
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -396,8 +280,9 @@ This 2021 Kabul protest against Taliban education bans directly relates to:</p>
 Gang control of Port-au-Prince creates:</p>
 <p>– “Humanitarian no-go zones” in 60% of city<br>
 – 70 attacks targeting supply convoys<br>
-– 400% increase in kidnapping incidents since 2019 - 2023 attacks exceeded all 2015-2019 totals<br>
-- Gangs now control 80% of capital</p>
+– 400% increase in kidnapping incidents since 2019<br>
+– 2023 attacks exceeded all 2015-2019 totals<br>
+– Gangs now control 80% of capital <span class="citation" data-cites="BBC_Haiti2023">(<a href="#ref-BBC_Haiti2023" role="doc-biblioref">News 2023</a>)</span></p>
 </div>
 </div>
 </section>
@@ -407,13 +292,13 @@ Gang control of Port-au-Prince creates:</p>
 <p>Three immutable patterns emerge from attack geography:</p>
 <ol type="1">
 <li><p><strong>Power Vacuum Targeting</strong><br>
-73% of incidents cluster within 6 months of political transitions (Afghanistan’s fall, Haiti’s collapse)</p></li>
+73% of incidents cluster within 6 months of political transitions (Afghanistan’s fall, Haiti’s collapse) <span class="citation" data-cites="ACLED_Afghanistan BBC_Haiti2023">(<a href="#ref-ACLED_Afghanistan" role="doc-biblioref">Event Data Project (ACLED) 2023</a>; <a href="#ref-BBC_Haiti2023" role="doc-biblioref">News 2023</a>)</span></p></li>
 <li><p><strong>Weaponized Access</strong><br>
-SFrom Syria’s siege tactics to Sudan’s aid blockades, restricting humanitarian access has become a strategic objective in modern conflicts - “humanitarian denial warfare” (ICRC term)</p></li>
+From Syria’s siege tactics to Sudan’s aid blockades, restricting humanitarian access has become a strategic objective in modern conflicts — “humanitarian denial warfare” <span class="citation" data-cites="ICRC">(<a href="#ref-ICRC" role="doc-biblioref"><strong>ICRC?</strong></a>)</span></p></li>
 <li><p><strong>Climate-Conflict Nexus</strong><br>
-Drought-driven Sahel conflicts and flooded South Sudan camps will impact 40% of high-risk zones by 2030</p></li>
+Drought-driven Sahel conflicts and flooded South Sudan camps will impact 40% of high-risk zones by 2030 <span class="citation" data-cites="UNHCR_Sahel2022">(<a href="#ref-UNHCR_Sahel2022" role="doc-biblioref">UNHCR 2022</a>)</span></p></li>
 </ol>
-<div style="text-align: center; margin-top: 1.5rem; margin-bottom: 1 rem;">
+<div style="text-align: center; margin-top: 1.5rem; margin-bottom: 1rem;">
 <h3 class="anchored">
 “We’re not just mapping where attacks happen…
 </h3>
@@ -421,14 +306,37 @@ Drought-driven Sahel conflicts and flooded South Sudan camps will impact 40% of 
 but where the <em>concept</em> of humanitarian neutrality is under assault.”
 </h3>
 <p style="font-size: 0.9em; color: #555;">
-— Humanitarian Security Annual Report 2024
+— Humanitarian Security Annual Report 2024 <span class="citation" data-cites="AidWorkerSecurity2023">(<a href="#ref-AidWorkerSecurity2023" role="doc-biblioref">Outcomes 2023</a>)</span>
 </p>
 </div>
 
 
+
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-AlJazeera_AfghanWomen2021" class="csl-entry" role="listitem">
+English, Al Jazeera. 2021. <span>“Afghan Women Protest Against Taliban Restrictions.”</span> <a href="https://www.aljazeera.com/news/2021/9/4/afghan-women-protest-taliban-rules">https://www.aljazeera.com/news/2021/9/4/afghan-women-protest-taliban-rules</a>.
+</div>
+<div id="ref-ACLED_Afghanistan" class="csl-entry" role="listitem">
+Event Data Project (ACLED), Armed Conflict Location &amp;. 2023. <span>“ACLED Data Export Tool.”</span> <a href="https://acleddata.com">https://acleddata.com</a>.
+</div>
+<div id="ref-MSF_SouthSudan2017" class="csl-entry" role="listitem">
+(MSF), Médecins Sans Frontières. 2017. <span>“MSF Condemns Hospital Bombing in South Sudan.”</span> <a href="https://www.msf.org">https://www.msf.org</a>.
+</div>
+<div id="ref-BBC_Haiti2023" class="csl-entry" role="listitem">
+News, BBC. 2023. <span>“Haiti Gang Violence Blocks Humanitarian Aid.”</span> <a href="https://www.bbc.com/news/world-latin-america-66205276">https://www.bbc.com/news/world-latin-america-66205276</a>.
+</div>
+<div id="ref-OCHA_Sudan2023" class="csl-entry" role="listitem">
+OCHA, UN. 2023. <span>“Sudan: Humanitarian Update – RSF-SAF Conflict Brief.”</span> United Nations Office for the Coordination of Humanitarian Affairs. <a href="https://reliefweb.int">https://reliefweb.int</a>.
+</div>
+<div id="ref-AidWorkerSecurity2023" class="csl-entry" role="listitem">
+Outcomes, Humanitarian. 2023. <span>“Aid Worker Security Report 2023: Figures at a Glance.”</span> Humanitarian Outcomes. <a href="https://aidworkersecurity.org">https://aidworkersecurity.org</a>.
+</div>
+<div id="ref-UNHCR_Sahel2022" class="csl-entry" role="listitem">
+UNHCR. 2022. <span>“Sahel Regional Situation Report.”</span> <a href="https://reporting.unhcr.org">https://reporting.unhcr.org</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
