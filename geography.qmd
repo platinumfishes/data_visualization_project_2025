@@ -3,7 +3,7 @@ title: "Geography of Danger"
 subtitle: "Spatial Patterns in Aid Worker Attacks (1997-2024)"
 format: 
   html:
-    toc: false
+    toc: true
     html-math-method: mathjax
     smooth-scroll: true
     css: styles.css

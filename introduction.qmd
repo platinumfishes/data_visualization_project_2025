@@ -3,15 +3,12 @@ title: "The Rising Threat to Humanitarians"
 subtitle: "Temporal Patterns in Aid Worker Attacks (1997-2024)"
 format: 
   html:
-    toc: false
+    toc: true
     smooth-scroll: true
     css: styles.css
 
 bibliography: references.bib
 ---
-
-# The Rising Threat to Humanitarians
-
 This timeline shows **yearly recorded attacks between 1997 and 2024**, revealing a sharp escalation over time. Each peak corresponds to significant geopolitical turning points:
 
 - **1997**: The aftermath of the Rwandan genocide and civil conflict in Somalia marked a turning point. That year saw one of the earliest targeted killings — including the **beheading of an ICRC staff member** by the Al-Itihaad militant group in Somalia [@ICRC_Somalia1997].
@@ -27,7 +24,7 @@ These peaks highlight how violence against aid workers mirrors — and sometimes
 Understanding these patterns is essential. Not just for crisis forecasting, but for shaping protection protocols, negotiating access, and upholding the humanitarian principles of **neutrality and impartiality** in an era of increasing polarization.
 
 <div style="text-align: center;">
-  <img src="assets/introduction/timeline_attacks.png" alt="Timeline of reported attacks on humanitarian workers from 1997 to 2024" style="width:90%;"/>
+  <img src="assets/introduction/timeline_attacks.png" alt="Timeline of reported attacks on humanitarian workers from 1997 to 2024" style="width:100%;"/>
 </div>
 
 ## Casualty Comparison: National vs. International Staff

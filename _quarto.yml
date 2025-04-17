@@ -17,10 +17,9 @@ format:
 bibliography: references.bib
 
 website:
-  title: "Unrequited Aid: The Intimate Struggle of Humanitarian Work"
   navbar:
     left:
-      - text: Humanitarian Harm Debrief
+      - text: Humanitarian Harm Debrief (Home Page)
         href: index.qmd
       - text: The Rising Threat
         href: introduction.qmd

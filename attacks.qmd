@@ -1,8 +1,9 @@
 ---
 title: "Methods of Violence & Attack Contexts"
+subtitle: "Weapons, Tactics, and Targeting Patterns in Humanitarian Attacks (1997–2024)"
 format:
   html:
-    toc: false
+    toc: true
     smooth-scroll: true
     css: styles.css
 bibliography: references.bib
@@ -53,3 +54,22 @@ Key insights from the visualization:
 - The diversity of tactics has grown over time, reflecting increasingly **complex, targeted, and premeditated** forms of violence.
 
 Understanding these shifting contexts helps operational planners anticipate **not just where**, but **how** aid workers are likely to be attacked — and build protection protocols accordingly.
+
+## The Mechanics of Targeting
+
+Three systemic patterns emerge from how aid workers are attacked:
+
+1. **Predictable Contexts, Vulnerable Moments**  
+Aid workers are most often targeted in **ambushes**, **checkpoints**, and **compound raids** — not random attacks, but scenarios where they are **highly visible and minimally protected**. Transit routes, office sites, and aid distribution hubs remain the most common flashpoints.
+
+2. **Disproportionate Lethality of Rare Tactics**  
+While **shootings** and **bodily assaults** dominate numerically, it is the **less frequent methods** — like **aerial bombardments**, **landmines**, and **complex attacks** — that account for the **highest death tolls** per incident [@AidWorkerSecurity2023; @ICRC_Somalia1997].
+
+3. **Shifting Tactical Landscapes**  
+The timeline shows that **new contexts emerge as conflict dynamics evolve**. The 2000s saw a rise in compound raids, the 2010s in roadside ambushes, and the 2020s are now marked by complex hybrid attacks and sieges on urban health facilities [@MSF_SouthSudan2017; @BBC_Gaza2023].
+
+<div style="text-align: center; margin-top: 1.5rem; margin-bottom: 1rem;">
+  <h3>"It’s not just where violence happens —</h3>
+  <h3>but <em>how</em> and <em>when</em> that define the humanitarian threat."</h3>
+  <p style="font-size: 0.9em; color: #555;">— Humanitarian Security Annual Report 2023 [@AidWorkerSecurity2023]</p>
+</div>
