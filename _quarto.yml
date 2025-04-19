@@ -19,7 +19,7 @@ bibliography: references.bib
 website:
   navbar:
     left:
-      - text: Humanitarian Harm Debrief (Home Page)
+      - text: Humanitarian Struggles Debrief (Home Page)
         href: index.qmd
       - text: The Rising Threat
         href: introduction.qmd

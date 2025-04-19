@@ -1,119 +1,93 @@
 ---
 title: "Geography of Danger"
-subtitle: "Spatial Patterns in Aid Worker Attacks (1997-2024)"
+subtitle: "Spatial Patterns in Aid Worker Attacks (1997–2024)"
 format: 
   html:
-    toc: true
-    html-math-method: mathjax
+    toc: false
     smooth-scroll: true
     css: styles.css
     allow-html: true
-
 bibliography: references.bib
 ---
 
 ## Global Heatmap: Where Aid Workers Are Most at Risk
 
-This interactive map shows the total number of documented attacks on humanitarian personnel between 1997 and 2024. Darker shades indicate higher concentrations of incidents. Use your cursor to explore regional hotspots and compare national exposure levels [@AidWorkerSecurity2023].
+This interactive map shows incident concentrations from 1997–2024. Darker regions reflect higher risk for humanitarian operations [@AidWorkerSecurity2023].
 
 <iframe src="assets/geography/professional_attack_heatmap.html" width="100%" height="550px" frameborder="0"></iframe>
 
-### Top 20 Most Dangerous Countries for Humanitarian Workers
-
-<!-- [Table remains unchanged] -->
-
 ---
 
-## Conflict Typology & Humanitarian Impact
+## Conflict Typologies & Field Realities
 
-#### 1. **Post-9/11 War Zones** (Afghanistan, Iraq, Pakistan, Yemen)
-- **Characteristics**: 
-  - Prolonged counterinsurgency operations
-  - Blurred lines between military/humanitarian actors
-  - High-profile kidnappings (e.g., 2004 Margaret Hassan case in Iraq)
-- **Humanitarian Challenges**: 
-  > "In Afghanistan, 60% of incidents occurred during NATO withdrawal (2021–2023)" – [@ACLED_Afghanistan]
+Humanitarian threats often reflect political environments:
 
-#### 2. **African Civil Wars** (South Sudan, Sudan, DR Congo, CAR, Mali)
-- **Patterns**:
-  - 80% involve attacks on national staff [@AidWorkerSecurity2023]
-  - Weaponization of aid access
-  - Climate stress multipliers (e.g., Sudan's Darfur region [@OCHA_Sudan2023])
-- **Notable Incident**: 2017 MSF hospital bombing in South Sudan [@MSF_SouthSudan2017]
+1. **Post-9/11 War Zones**  
+   Afghanistan, Iraq, and Pakistan saw spikes due to blurred civil-military boundaries and insurgency targeting [@ACLED_Afghanistan].
 
-#### 3. **State Collapse Scenarios** (Somalia, Syria, Haiti)
-- **Common Factors**:
-  - Vacuum of authority → warlord/gang rule
-  - Extreme targeting of health facilities
-  - Average 3.2 attacks/month in Somalia (2010–2020) [@AidWorkerSecurity2023]
+2. **African Civil Wars**  
+   80% of victims are national staff; aid is blocked or weaponized during unrest (e.g., South Sudan, Sudan, Mali) [@MSF_SouthSudan2017].
 
-#### 4. **Authoritarian Crackdowns** (Myanmar, Ethiopia, Palestine)
-- **Trends**:
-  - Legal restrictions on humanitarian access
-  - Weaponization of bureaucracy
-  - 40% of Myanmar incidents occurred post-2021 coup [@AidWorkerSecurity2023]
+3. **State Collapse**  
+   Syria and Haiti show how lawless zones foster gang/warlord rule and complex violence [@BBC_Haiti2023].
 
-#### 5. **Spillover Conflicts** (Kenya, Cameroon, Uganda)
-- **Dynamics**:
-  - Cross-border militant raids
-  - Refugee camp vulnerabilities
-  - Compounded by climate migration [@UNHCR_Sahel2022]
+4. **Authoritarian Crackdowns**  
+   Myanmar and Ethiopia restrict aid legally or violently post-2021 [@AidWorkerSecurity2023].
 
+5. **Spillover Conflicts**  
+   Border insecurity drives attacks in Kenya, Cameroon, and Uganda [@UNHCR_Sahel2022].
+
+## Animated Globe of Aid Worker Attacks (1997–2024)
+
+<iframe src="assets/geography/animated_geo_incidents.html" width="100%" height="550px" frameborder="0"></iframe>
+
+This animated globe presents a **dynamic view of where humanitarian workers have been most at risk** over the last three decades.
+
+- Early hotspots emerge across **East Africa and Central Asia** in the late 1990s.
+- By the mid-2000s, incidents surge in **Iraq, Sudan, and DR Congo** — coinciding with conflict escalation and UN deployments.
+- In the 2010s, the rise of **ISIS**, **Syrian civil war**, and **Yemen crisis** shift the map eastward.
+- By 2020–2024, the globe shows **intensified activity in Afghanistan, Palestine, and Myanmar**, reflecting modern frontline risk.
+
+The **orthographic projection** emphasizes global curvature — making regional clusters and geographic escalation patterns easier to observe as the world spins forward in time.
 ---
-#### Notable Trends:
-1. 80% of incidents occur in just 3 conflict types: Islamic insurgencies, civil wars, and ethnic conflicts [@AidWorkerSecurity2023]
-2. Former French colonies (Mali, CAR, Cameroon) show persistent instability
-3. Climate stress compounds conflicts in Sahel countries (Sudan, Ethiopia, Somalia) [@UNHCR_Sahel2022]
-4. Aid workers increasingly targeted as political symbols (especially in Afghanistan and Syria) [@AidWorkerSecurity2023]
 
-### Localized Threats to Humanitarian Operations
+## Case Study Highlights
 
 ::: {.columns}
-
 ::: {.column width="50%"}
+
+**Afghanistan (#1 in Attacks)**  
+- 142 attacks on female aid workers (2021–2023)  
+- 38% of attacks post-Taliban resurgence targeted women  
+- 60% decline in women-led operations [@AlJazeera_AfghanWomen2021]
 
 ![Afghan women protest Taliban restrictions](assets/geography/afghan_women_protest.webp)
 
-**Afghanistan (#1 in attacks)**  
-This 2021 Kabul protest against Taliban education bans directly relates to:
-
-– 142 attacks on female aid workers (2021–2023)  
-– 60% reduction in women-led NGO operations  
-– Correlation with Table 1's 610 total incidents  
-– 38% of attacks targeted women humanitarians post-2021  
-– Incidents correlate with protest suppression dates [@AlJazeera_AfghanWomen2021; @ACLED_Afghanistan]
-
 :::
-
 ::: {.column width="50%"}
+
+**Haiti (#16 in Attacks)**  
+- Gangs control 80% of Port-au-Prince  
+- 70+ convoy attacks; 400% rise in kidnappings  
+- Aid presence has retreated from 60% of zones [@BBC_Haiti2023]
 
 ![Armed Haitian gangs control neighborhoods](assets/geography/haiti_gang.webp)
 
-**Haiti (#16 in attacks)**  
-Gang control of Port-au-Prince creates:
-
-– "Humanitarian no-go zones" in 60% of city  
-– 70 attacks targeting supply convoys  
-– 400% increase in kidnapping incidents since 2019  
-– 2023 attacks exceeded all 2015-2019 totals  
-– Gangs now control 80% of capital [@BBC_Haiti2023]
-
+:::
 :::
 
-:::
+---
 
 ## The Cartography of Risk
 
-Three immutable patterns emerge from attack geography:
-
 1. **Power Vacuum Targeting**  
-73% of incidents cluster within 6 months of political transitions (Afghanistan's fall, Haiti's collapse) [@ACLED_Afghanistan; @BBC_Haiti2023]
+   73% of attacks cluster after regime change (e.g., Afghanistan, Haiti).
 
 2. **Weaponized Access**  
-From Syria’s siege tactics to Sudan’s aid blockades, restricting humanitarian access has become a strategic objective in modern conflicts — "humanitarian denial warfare" [@ICRC]  
+   Aid is deliberately blocked or attacked — a new form of strategic denial [@ICRC].
 
 3. **Climate-Conflict Nexus**  
-Drought-driven Sahel conflicts and flooded South Sudan camps will impact 40% of high-risk zones by 2030 [@UNHCR_Sahel2022]
+   The Sahel, Ethiopia, and Sudan face layered crises of drought and violence [@UNHCR_Sahel2022].
 
 <div style="text-align: center; margin-top: 1.5rem; margin-bottom: 1rem;">
   <h3>"We're not just mapping where attacks happen...</h3>

@@ -26,8 +26,6 @@ Our dashboard serves as both an analytical artifact and a prototype for what **r
 
 ---
 
-## Global Risk Landscape
-
 ![](assets/index/humanitarian_worker.png)
 
 ---

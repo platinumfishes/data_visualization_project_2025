@@ -3,7 +3,7 @@ title: "Targets of Terror"
 subtitle: "Victim Profiles and Perpetrator Motives in Aid Worker Violence (1997–2024)"
 format:
   html:
-    toc: true
+    toc: false
     smooth-scroll: true
     css: styles.css
 bibliography: references.bib
@@ -20,7 +20,7 @@ Understanding these dynamics is critical: **protection begins with profiling the
 ## Targeted by Role: Who Bears the Brunt?
 
 <div style="text-align: center;">
-  <img src="assets/targets/org_type_stacked_final.png" alt="Stacked bar chart showing fatalities and kidnappings by humanitarian organization type" style="width:100%;"/>
+  <img src="assets/targets/org_type_stacked_final.png" alt="Stacked bar chart showing fatalities and kidnappings by humanitarian organization type" style="width:90%;"/>
 </div>
 
 This chart shows which types of humanitarian organizations face the **greatest physical threats** in the field. 
